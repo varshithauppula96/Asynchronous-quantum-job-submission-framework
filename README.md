@@ -89,14 +89,14 @@ The Job Framework is given credentials to create and access an Object Store Buck
 
 Similarly, the intermediate and final results can also be stored in the bucket to ensure that if the backends are busy or offline, the intermediate results can be re-used by other components without restarting the job. When the same Data Scientist logins in, in the future, the Object Storage claims are restored and can retrieve the circuits and jobs from the Object Store.
 
-Figure 1
 
 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image1.png "image_tooltip")
+
+
+![Figure 1](cloud.png "image_tooltip")
 
 
 
