@@ -116,19 +116,15 @@ Figure 1
 
 We have biweekly meetings with the mentor to discuss progress and plan the implementation of the next sprint. 
 
-We plan to have bi-weekly sprints and work on particular release goals for two weeks and go over them in our meeting with the mentor. 
+We plan to have bi-weekly sprints and work on particular release goals for two weeks and go over them in our meeting with the mentor.
 
-**Sprint 1 **
+*Sprint 1*
 
-**[Feb 08 - Feb 19] **
+*[Feb 08 - Feb 19]*
 
-**Goals - **
+*Goals -* 
 
-
-    ** **Docker and container image registry
-
-
-
+    *   Docker and container image registry
     *   Set up the dev en. Install lib (qiskit, python etc) \
 `RUN pip install --upgrade pip && \`
     *   `   pip install qiskit jupyter matplotlib numpy`
