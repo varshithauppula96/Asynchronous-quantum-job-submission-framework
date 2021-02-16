@@ -1,5 +1,5 @@
 ## **Asynchronous Quantum Job Framework with Object Store**
-** CS6220: Project Proposal**
+###  CS6220: Project Proposal
 
 [Mentor: Parul Singh]
 
@@ -27,14 +27,14 @@ The goal of the project is to offer an Asynchronous Quantum Job Framework that w
 This framework acts as a facade for the user to interact with switchable quantum workload processing backends. And also handles the burden of storing the result of quantum workloads in a secure, reliable and persistent manner. 
 
 
-## 
+
 **2. Key Personas Of The Project:**
 
 
 
-*   **Quantum Algorithm Scientist:  **
+*   Quantum Algorithm Scientist:  
     *   Builds quantum circuits to provide algorithm-level functionality
-*   **Traditional Application Architect / Developer:  **
+*   Traditional Application Architect / Developer:  
     *   Builds the overall application architecture leveraging combinations of both classical and quantum algorithms. 
 
 
