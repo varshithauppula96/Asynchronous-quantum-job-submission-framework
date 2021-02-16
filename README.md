@@ -1,4 +1,4 @@
-**Asynchronous Quantum Job Framework with Object Store**
+## **Asynchronous Quantum Job Framework with Object Store**
 ** CS6220: Project Proposal**
  [Mentor: Parul Singh]
 
