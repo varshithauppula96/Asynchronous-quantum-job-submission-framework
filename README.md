@@ -90,7 +90,7 @@ The Job Framework is given credentials to create and access an Object Store Buck
 Similarly, the intermediate and final results can also be stored in the bucket to ensure that if the backends are busy or offline, the intermediate results can be re-used by other components without restarting the job. When the same Data Scientist logins in, in the future, the Object Storage claims are restored and can retrieve the circuits and jobs from the Object Store.
 
 
-
+Figure 1
 
 
 
