@@ -127,7 +127,7 @@ We plan to have bi-weekly sprints and work on particular release goals for two w
     *   Docker and container image registry
     *   Set up the dev en. Install lib (qiskit, python etc) \
 `RUN pip install --upgrade pip && \`
-    *   `   pip install qiskit jupyter matplotlib numpy`
+    *   pip install qiskit jupyter matplotlib numpy
     *   S3 compliant options (AWS S3)
     *   Write a demo circuit and run on simulator
     *   How to REST server 
@@ -135,9 +135,9 @@ We plan to have bi-weekly sprints and work on particular release goals for two w
     *   Research on how to work with Qiskit quantum simulator.
     *   Try submitting a dummy job and getting back the result. 
 
-**Sprint 2 **
+**Sprint 2**
 
-**[Feb 22 - Mar 05] **
+**[Feb 22 - Mar 05]**
 
 **Goals -**
 
@@ -150,9 +150,9 @@ We plan to have bi-weekly sprints and work on particular release goals for two w
 *   Create an AWS S3 account and get credentials. 
 *   Setup starter code to connect API with S3 compliant object store and try storing and retrieving dummy results. 
 
-**Sprint 3 **
+**Sprint 3**
 
-**[Mar 08 - Mar 19] **
+**[Mar 08 - Mar 19]**
 
 **Goals -**
 
@@ -164,7 +164,7 @@ We plan to have bi-weekly sprints and work on particular release goals for two w
 
 **Sprint 4**
 
-**[Mar 22 - Apr 02] **
+**[Mar 22 - Apr 02]**
 
 **Goals -**
 
