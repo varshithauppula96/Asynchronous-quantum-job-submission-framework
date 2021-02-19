@@ -1,5 +1,6 @@
-## **Asynchronous Quantum Job Framework with Object Store**
-###  CS6220: Project Proposal
+# **Asynchronous Quantum Job Framework with Object Store**
+
+## CS6220: Project Proposal
 
 [Mentor: Parul Singh]
 
@@ -197,4 +198,14 @@ We plan to have bi-weekly sprints and work on particular release goals for two w
 
 [^1]:
     https://min.io/product/overview
+
+
+### Getting started
+
+``` console
+    python3 -m venv env
+    source env/bin/activate
+    pip3 install -r requirements.txt
+
+    hypercorn main:app --reload
 
