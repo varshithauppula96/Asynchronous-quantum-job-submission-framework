@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+qiskit
+jupyter
+matplotlib
+numpy
+requests
