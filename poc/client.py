@@ -63,3 +63,5 @@ print("result_dict: ", result_dict)
 print("Tpe of result_dict: ", type(result_dict))
 
 result_json = json.dumps(result_dict, cls=QobjEncoder)
+print("######")
+print(result_json)
