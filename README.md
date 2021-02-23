@@ -104,12 +104,10 @@ Figure 1
 ## 
 **5. Acceptance criteria**
 
-
-
-*   Set up a development environment
-*   Create https REST endpoints submit/status/retriveJob
-*   Test endpoints
-*   Containerize the app and cron-job.
+*   Add /submit HTTPS API endpoint allwing the callee to Submit a Qasm_Obj(quantum circuit).
+*   Add /getResult HTTPS API endpoint which the caller calls with the job-id as the key. It returns Result JSON to the callee
+*   Cron-job with timing configurable from a config file to check if pending jobs are completed.
+*   Containerize the app by adding a docker file and ensure it runs on OpenShift.
 
 ## 
 **6. Release Planning:**
