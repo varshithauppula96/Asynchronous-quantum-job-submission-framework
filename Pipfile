@@ -8,6 +8,7 @@ fastapi = "*"
 qiskit = "*"
 numpy = "*"
 hypercorn = "*"
+boto3 = "*"
 
 [dev-packages]
 
