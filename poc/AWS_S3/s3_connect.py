@@ -1,11 +1,11 @@
-import boto3
 from botocore.client import BaseClient
-
+import boto3
+from env_settings import settings
 session = boto3.Session()
 
-credentials = session.get_credentials()
-access_key = credentials.access_key
-secret_key = credentials.secret_key
+
+access_key = settings.AWS_ACCESS_KEY_ID
+secret_key = settings.AWS_SECRET_ACCESS_KEY
 # uses credentials from environment
 def s3_auth() -> BaseClient:
     s3 = boto3.client(service_name='s3', aws_access_key_id= access_key,
@@ -18,11 +18,3 @@ s3=s3_auth()
 response = s3.list_buckets()
 for bucket in response['Buckets']:
     print(f'  {bucket["Name"]}')
-
-
-
-
-
-
-
-
