@@ -1,17 +1,20 @@
 from botocore.client import BaseClient
 import boto3
-from env_settings import settings
-session = boto3.Session()
+import os
+access_key = 'AWS_ACCESS_KEY_ID'
+access_value = os.getenv(access_key)
+secret_key = 'AWS_SECRET_ACCESS_KEY'
+secret_value = os.getenv(secret_key)
 
 
-access_key = settings.AWS_ACCESS_KEY_ID
-secret_key = settings.AWS_SECRET_ACCESS_KEY
 # uses credentials from environment
 def s3_auth() -> BaseClient:
-    s3 = boto3.client(service_name='s3', aws_access_key_id= access_key,
-                      aws_secret_access_key= secret_key
-                      )
+    s3 = boto3.client(
+    's3',
+    aws_access_key_id=access_value,
+    aws_secret_access_key=secret_value,
 
+)
     return s3
 
 s3=s3_auth()
