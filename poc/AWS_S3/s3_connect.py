@@ -8,7 +8,7 @@ secret_value = os.getenv(secret_key)
 
 
 # uses credentials from environment
-def s3_auth() -> BaseClient:
+def s3_connect() -> BaseClient:
     s3 = boto3.client(
     's3',
     aws_access_key_id=access_value,
@@ -17,7 +17,7 @@ def s3_auth() -> BaseClient:
 )
     return s3
 
-s3=s3_auth()
+s3=s3_connect()
 response = s3.list_buckets()
 for bucket in response['Buckets']:
     print(f'  {bucket["Name"]}')
