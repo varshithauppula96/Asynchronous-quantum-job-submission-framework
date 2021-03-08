@@ -193,6 +193,8 @@ We plan to have bi-weekly sprints and work on particular release goals for two w
 
 <!-- Footnotes themselves at the bottom. -->
 ## Notes
+Please refer to DEV-README.md for guide to run the project and more details. 
+
 
 [^1]:
     https://min.io/product/overview
