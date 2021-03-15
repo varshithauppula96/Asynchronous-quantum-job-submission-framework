@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends
-from cloud-project.Asynchronous-quantum-job-submission-framework.AWS_S3.s3_connect import s3_con
+from s3_connect import s3_con
 from botocore.client import BaseClient
 
 

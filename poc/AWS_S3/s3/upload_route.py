@@ -4,7 +4,7 @@ from fastapi import File, UploadFile
 from fastapi.responses import JSONResponse
 
 from s3_connect import s3_con
-from upload_pending import upload_file_to_bucket
+from upload._pending import upload_file_to_bucket
 
 router = APIRouter()
 
