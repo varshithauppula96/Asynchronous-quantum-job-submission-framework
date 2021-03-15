@@ -11,7 +11,7 @@ secret_value = os.getenv(secret_key)
 
 
 # uses credentials from environment
-def s3_connect() -> BaseClient:
+def s3_con() -> BaseClient:
     s3 = boto3.client(
     's3',
     aws_access_key_id=access_value,
